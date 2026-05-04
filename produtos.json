@@ -1,0 +1,14 @@
+{
+    "Smartphone": {
+        "preco": 2500,
+        "estoque": 12
+    },
+    "Notebook": {
+        "preco": 4800,
+        "estoque": 5
+    },
+    "Fone Bluetooth": {
+        "preco": 300,
+        "estoque": 25
+    }
+}

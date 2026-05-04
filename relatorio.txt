@@ -1,0 +1,3 @@
+Python é poderoso e versátil.
+Python permite automação e análise.
+Automação é essencial em engenharia.
