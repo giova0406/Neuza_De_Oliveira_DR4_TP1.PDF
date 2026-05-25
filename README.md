@@ -1,5 +1,5 @@
-# Neuza_De_Oliveira_DR4_TP1.PDF
-# DR4 - TP1 | Estruturas de Dados em Python
+
+#| Estruturas de Dados em Python
 
 ## 📚 Sobre
 Atividade prática da disciplina de Python com foco em 
@@ -9,7 +9,7 @@ dicionários, conjuntos, arquivos e JSON.
 - Python 3
 - Módulos: json, datetime, time, string
 
-## 📝 Exercícios
+## 📝 
 | Nº | Tema |
 |----|------|
 | 01 | Atualizar estoque de livros |
