@@ -1,5 +1,4 @@
 
-#  Exercício 1 Atualizar dicionário de estoque de livros
 estoque = {
     "Python Crash Course": 4,
     "Clean Code": 2,
@@ -19,7 +18,6 @@ atualizar_estoque(estoque, "Clean Code", 3)
 atualizar_estoque(estoque, "Fluent Python", 5)
 atualizar_estoque(estoque, "Automate the Boring Stuff", 0)
 
-# Exercício 2 Criar dicionário de notas por aluno
 
 registros = [
     ("Ana", [8, 9, 7]),
@@ -44,7 +42,6 @@ for aluno in remover:
 
 print(notas)
 
-# Exercício 3 Comparar desempenho de buscas em lista e dicionário
 
 import time
 
@@ -75,7 +72,7 @@ media_dict = sum(tempos_dict) / len(tempos_dict)
 print(f"Tempo medio (lista): {media_lista:.6f} segundos")
 print(f"Tempo medio (dict): {media_dict:.6f} segundos")
 
-# Exercício 4 Converter dicionário em lista tabular
+
 medias = {"Ana": 8.5, "Bruno": 6.3, "Carla": 9.1}
 
 tabela = list(medias.items())
@@ -83,7 +80,7 @@ tabela = list(medias.items())
 ranking = sorted(tabela, key=lambda item: item[1], reverse=True)
 print(ranking)
 
-# Exercício 5 Remover leituras incorretas
+
 temperaturas = {"RJ": 29.4, "SP": -99.0, "MG": 27.2, "BA": 31.1, "RS": -88.0}
 
 def filtrar_temperaturas(temp_dict):
@@ -99,7 +96,7 @@ def filtrar_temperaturas(temp_dict):
 
 filtrar_temperaturas(temperaturas)
 
-# Exercício 6 Atualizar estoque com vencimento
+
 import datetime
 
 medicamentos = {
@@ -122,7 +119,6 @@ for med in remover:
 print("Removidos:", len(remover))
 print(medicamentos)
 
-# Exercício 7 Garantir unicidade
 
 emails = [
     "ana@empresa.com", "bruno@empresa.com", "ana@empresa.com",
@@ -136,7 +132,6 @@ lista_final = sorted(unicos)
 print("Duplicatas removidas:", duplicatas)
 print(lista_final)
 
-# Exercício 8 Analisar interseção e diferença entre conjuntos
 
 clientes_A = {"Ana", "Bruno", "Carla", "Daniel"}
 clientes_B = {"Bruno", "Carla", "Eduardo", "Fernanda"}
@@ -151,7 +146,6 @@ print("Todos os clientes:", uniao)
 
 print("Total Unico:", len(uniao))
 
-# Exercício 9 Ler arquivo e contar palavras
 
 with open("relatorio.txt", "r", encoding="utf-8") as arquivo:
     linhas = arquivo.readlines()
@@ -174,7 +168,7 @@ print("Top 3 palavras mais frequentes:")
 for palavra, qnt in top3:
     print(f"{palavra}: {qnt}")
 
-# Exercício 10 Gerar arquivo de configuração
+
 config = {
     "servidor": "192.168.0.10",
     "porta": 8080,
@@ -194,7 +188,7 @@ with open("config.txt", "r", encoding="utf-8") as arquivo:
     conteudo= arquivo.read()
     print(conteudo)
 
-# Exercício 11 Converter dicionário em JSON
+
 import json
 
 produtos = {
@@ -212,7 +206,7 @@ with open("produtos.json", "r", encoding="utf-8") as arquivo:
 print(type(dados))
 print(dados)
 
-# Exercício 12 Consolidar bases e exportar para JSON
+
 campanha_1 = ["Ana", "Bruno", "Carla"]
 campanha_2 = ["Bruno", "Daniel", "Eduardo"]
 campanha_3 = ["Ana", "Fernanda", "Gustavo"]
